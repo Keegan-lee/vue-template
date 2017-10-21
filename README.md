@@ -1,4 +1,6 @@
-# vue-pwa
+# Material Vue-Fire Template
+
+ A basic Vue template that is integrated with Google's Material Design and Google's Firebase.  
 
 > A Vue.js project
 
