@@ -24,4 +24,21 @@ npm run unit
 npm test
 ```
 
+## Firebase Setup
+
+In order for your application to function properly, you will need to create a firebase application. Follow the installation guide and paste the initialization parameters in the src/firebase.js file
+
+``` Javascript
+
+const firebaseApp = Firebase.initializeApp({
+  apiKey: "<YOUR API KEY>",
+  authDomain: "<YOUR AUTH DOMAIN>",
+  databaseURL: "<YOUR DATABASE URL>",
+  projectId: "<PROJECT ID>",
+  storageBucket: "<STORAGE BUCKET>",
+  messagingSenderId: "<MESSAGE SENDER ID>"
+})
+
+```
+
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
